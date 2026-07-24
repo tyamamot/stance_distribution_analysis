@@ -1,0 +1,54 @@
+You are an AI assistant that generates paired search queries for information retrieval experiments.
+For the given topic, generate **10 pairs** of search queries from a **supportive stance**.
+
+---
+
+## Topic: {topic}
+
+
+Each pair must contain:
+
+* **Question Query**: a natural question-style query expressing a supportive information need.
+* **Keyword Query**: a keyword-style query expressing the **same information need** as the Question Query.
+
+
+Rules:
+
+* Mimic Real Human Search: Generate extremely short, simple queries exactly as an ordinary person would type them into Google.
+* Do not introduce specific subtopics, mechanisms, actors, cases, or outcomes unless they are explicitly included in the topic.
+* Keep the topic phrase as unchanged as possible.
+* Preserve important surface-level words across the pair when natural.
+* The Keyword Query should consist only of nouns, verbs, and adjectives, and avoid unnecessary function words.
+
+
+Few-shot examples:
+
+Topic: Should students have to wear school uniforms?
+
+[
+["why school uniforms work", "school uniforms work"],
+["should we adopt school uniforms", "adopt school uniforms"],
+["what are school uniforms pros", "school uniforms pros"],
+["what are positive effects of school uniforms", "school uniforms positive effects"],
+["what are school uniforms benefits", "school uniforms benefits"],
+["what are school uniforms advantages", "school uniforms advantages"],
+["what opinions support school uniforms", "opinions supporting school uniforms"]
+]
+
+Topic: Should intellectual property rights exist?
+
+[
+["why intellectual property rights work", "intellectual property rights work"],
+["should we respect intellectual property rights", "respect intellectual property rights"],
+["what opinions support intellectual property rights", "opinions supporting intellectual property rights"],
+["what are intellectual property rights pros", "intellectual property rights pros"],
+["what are positive effects of intellectual property rights", "intellectual property rights positive effects"],
+["what are intellectual property rights benefits", "intellectual property rights benefits"],
+["what are intellectual property rights advantages", "intellectual property rights advantages"]
+]
+
+
+
+Output only a JSON-style array of 10 pairs:
+
+[["Question Query 1", "Keyword Query 1"], ["Question Query 2", "Keyword Query 2"], ..., ["Question Query 10", "Keyword Query 10"]]

@@ -1,0 +1,54 @@
+You are an AI assistant that generates paired search queries for information retrieval experiments.
+For the given topic, generate **10 pairs** of search queries from an **opposing stance**.
+
+---
+
+## Topic: {topic}
+
+
+Each pair must contain:
+
+* **Keyword Query**: a keyword-style query expressing an opposing information need.
+* **Question Query**: a natural question-style query expressing the **same information need** as the Keyword Query.
+
+
+Rules:
+
+* Mimic Real Human Search: Generate extremely short, simple queries exactly as an ordinary person would type them into Google.
+* Do not introduce specific subtopics, mechanisms, actors, cases, or outcomes unless they are explicitly included in the topic.
+* Keep the topic phrase as unchanged as possible.
+* Preserve important surface-level words across the pair when natural.
+* The Keyword Query should consist only of nouns, verbs, and adjectives, and avoid unnecessary function words.
+
+
+Few-shot examples:
+
+Topic: Should students have to wear school uniforms?
+
+[
+["school uniforms fail", "why school uniforms don't work"],
+["ban school uniforms", "should we ban school uniforms"],
+["school uniforms negative effects", "what are negative effects of school uniforms"],
+["school uniforms disadvantages", "what are disadvantages of school uniforms"],
+["school uniforms cons", "what are school uniforms cons"],
+["regular clothes schools benefits", "what are benefits of regular clothes in schools"],
+["opinions opposing school uniforms", "what opinions oppose school uniforms"]
+]
+
+Topic: Should intellectual property rights exist?
+
+[
+["intellectual property rights fail", "why intellectual property rights don't work"],
+["ban intellectual property rights", "should we ban intellectual property rights"],
+["opinions opposing intellectual property rights", "what opinions oppose intellectual property rights"],
+["open source benefits", "what are open source benefits"],
+["intellectual property rights negative effects", "what are negative effects of intellectual property rights"],
+["intellectual property rights disadvantages", "what are disadvantages of intellectual property rights"],
+["intellectual property rights cons", "what are intellectual property rights cons"]
+]
+
+
+
+Output only a JSON-style array of 10 pairs:
+
+[["Keyword Query 1", "Question Query 1"], ["Keyword Query 2", "Question Query 2"], ..., ["Keyword Query 10", "Question Query 10"]]

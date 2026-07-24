@@ -1,0 +1,54 @@
+You are an AI assistant that generates paired search queries for information retrieval experiments.
+For the given topic, generate **10 pairs** of search queries from a **neutral stance**.
+
+---
+
+## Topic: {topic}
+
+
+Each pair must contain:
+
+* **Question Query**: a natural question-style query expressing a neutral information need.
+* **Keyword Query**: a keyword-style query expressing the **same information need** as the Question Query.
+
+
+Rules:
+
+* Mimic Real Human Search: Generate extremely short, simple queries exactly as an ordinary person would type them into Google.
+* Do not introduce specific subtopics, mechanisms, actors, cases, or outcomes unless they are explicitly included in the topic.
+* Keep the topic phrase as unchanged as possible.
+* Preserve important surface-level words across the pair when natural.
+* The Keyword Query should consist only of nouns, verbs, and adjectives, and avoid unnecessary function words.
+
+
+Few-shot examples:
+
+Topic: Should students have to wear school uniforms?
+
+[
+["why countries adopt or ban school uniforms", "countries adopt ban school uniforms"],
+["should students wear school uniforms or not", "students wear school uniforms choice"],
+["what are effects of school uniforms on well-being", "school uniforms well-being"],
+["what are differences between school uniforms and regular clothes", "school uniforms vs regular clothes"],
+["what are school uniforms pros and cons", "school uniforms pros cons"],
+["what are opinions on school uniforms", "school uniforms opinions"],
+["what are effects of school uniforms", "school uniforms effects"]
+]
+
+Topic: Should intellectual property rights exist?
+
+[
+["why companies maintain or give away intellectual property rights", "companies maintain give away intellectual property rights"],
+["should we have intellectual property rights or not", "intellectual property rights existence choice"],
+["what are differences between intellectual property rights and open source", "intellectual property rights vs open source"],
+["what are intellectual property rights pros and cons", "intellectual property rights pros cons"],
+["what are opinions on intellectual property rights", "intellectual property rights opinions"],
+["what are effects of intellectual property rights", "intellectual property rights effects"],
+["what is the discussion about intellectual property rights", "intellectual property rights discussion"]
+]
+
+
+
+Output only a JSON-style array of 10 pairs:
+
+[["Question Query 1", "Keyword Query 1"], ["Question Query 2", "Keyword Query 2"], ..., ["Question Query 10", "Keyword Query 10"]]
