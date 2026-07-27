@@ -1,0 +1,491 @@
+topic_id,question_query,keyword_query,query_stance,BM25 with stopword removal,BM25 without stopword removal,SPLADE-v3,e5-base-v2,bge-large-en-v1.5,ColBERT-v2,bge-reranker-v2-m3,Qwen3-Reranker-4B,rank1-7b,Listwise (Llama-3.1-8B-Instruct),Setwise (Llama-3.1-8B-Instruct)
+1,why obesity is a disease,obesity is a disease,pro,0.000,0.050,0.200,0.050,0.000,0.050,0.200,0.200,0.050,0.000,0.050
+1,what makes obesity a disease,obesity disease reasons,pro,0.050,0.150,0.100,0.000,0.100,0.050,0.050,0.000,0.000,0.100,0.100
+1,why recognizing obesity as a disease helps,obesity disease advantages,pro,0.000,0.100,0.200,0.200,0.150,0.100,0.200,0.100,0.200,0.000,0.000
+1,should obesity be considered a disease,consider obesity disease,pro,0.100,0.000,0.000,0.100,0.050,0.200,0.100,0.100,0.200,0.100,0.050
+1,what evidence supports obesity as a disease,obesity disease evidence,pro,0.000,0.100,0.050,0.000,0.200,0.100,0.200,0.100,0.050,0.000,0.050
+1,why labeling obesity a disease matters,obesity disease importance,pro,0.050,0.150,0.050,0.100,0.150,0.050,0.100,0.100,0.050,0.100,0.050
+1,how treating obesity as a disease helps people,obesity disease support,pro,0.350,0.050,0.050,0.100,0.000,0.100,0.050,0.100,0.100,0.200,0.050
+1,what evidence shows obesity is a disease,obesity disease evidence,pro,0.000,0.100,0.050,0.000,0.100,0.050,0.150,0.050,0.150,0.050,0.000
+1,why is obesity considered a disease,obesity disease reasons,pro,0.050,0.100,0.200,0.100,0.250,0.000,0.200,0.100,0.050,0.100,0.050
+1,what supports calling obesity a disease,obesity disease support,pro,0.050,0.150,0.100,0.100,0.200,0.200,0.050,0.050,0.100,0.000,0.100
+1,why classify obesity as a disease,obesity disease classification,pro,0.100,0.100,0.200,0.150,0.250,0.150,0.250,0.100,0.050,0.050,0.050
+1,how is obesity a medical disease,obesity medical disease,pro,0.000,0.250,0.000,0.100,0.150,0.100,0.050,0.100,0.150,0.000,0.150
+1,what is the consensus that obesity is a disease,obesity disease consensus,pro,0.000,0.150,0.250,0.150,0.050,0.100,0.150,0.050,0.100,0.000,0.050
+1,what arguments say obesity is a disease,obesity disease arguments,pro,0.050,0.100,0.000,0.050,0.150,0.000,0.000,0.000,0.050,0.100,0.050
+1,why recognize obesity as a disease,obesity disease recognition,pro,0.000,0.100,0.500,0.150,0.250,0.350,0.200,0.150,0.150,0.050,0.100
+1,why should obesity have disease status,obesity disease status,pro,0.000,0.100,0.150,0.250,0.200,0.250,0.200,0.050,0.100,0.050,0.050
+1,what defines obesity as a disease,obesity disease definition,neutral,0.100,0.250,0.000,0.050,0.000,0.000,0.100,0.250,0.250,0.100,0.100
+1,what is the debate on obesity as a disease,obesity disease debate,neutral,0.000,0.150,0.050,0.150,0.200,0.050,0.150,0.050,0.300,0.000,0.100
+1,how experts view obesity as a disease,obesity disease expert views,neutral,0.000,0.100,0.300,0.100,0.000,0.150,0.050,0.150,0.050,0.150,0.000
+1,what does research say about obesity as a disease,obesity disease research,neutral,0.050,0.050,0.100,0.150,0.150,0.200,0.200,0.050,0.300,0.050,0.000
+1,what is public opinion on obesity as a disease,obesity disease public opinion,neutral,0.000,0.100,0.100,0.100,0.050,0.050,0.050,0.050,0.100,0.050,0.050
+1,what is the definition of obesity as a disease,obesity disease definition,neutral,0.000,0.050,0.050,0.150,0.000,0.000,0.050,0.100,0.300,0.050,0.050
+1,what is the debate on whether obesity is a disease,obesity disease debate,neutral,0.100,0.150,0.050,0.150,0.150,0.250,0.100,0.100,0.150,0.100,0.050
+1,what is the disease status of obesity,obesity disease status,neutral,0.000,0.150,0.000,0.150,0.050,0.150,0.100,0.050,0.150,0.000,0.000
+1,how is obesity classified as a disease,obesity disease classification,neutral,0.200,0.300,0.000,0.050,0.200,0.000,0.150,0.200,0.050,0.200,0.000
+1,what are the arguments on obesity as a disease,obesity disease arguments,neutral,0.000,0.050,0.000,0.000,0.100,0.000,0.000,0.050,0.200,0.100,0.050
+1,what are the criteria for calling obesity a disease,obesity disease criteria,neutral,0.000,0.150,0.000,0.100,0.100,0.250,0.050,0.200,0.050,0.100,0.050
+1,what are the pros and cons of labeling obesity a disease,obesity disease pros cons,neutral,0.100,0.150,0.150,0.100,0.050,0.050,0.100,0.050,0.000,0.050,0.100
+1,what are the viewpoints on obesity as a disease,obesity disease viewpoints,neutral,0.000,0.150,0.050,0.050,0.050,0.050,0.000,0.050,0.050,0.050,0.050
+1,what is the discussion about obesity as a disease,obesity disease discussion,neutral,0.000,0.100,0.000,0.050,0.150,0.200,0.150,0.050,0.150,0.050,0.000
+1,what evidence supports or challenges obesity being a disease,obesity disease evidence,neutral,0.000,0.150,0.050,0.000,0.150,0.100,0.200,0.050,0.300,0.050,0.100
+1,why obesity is not a disease,obesity not a disease,con,0.000,0.050,0.150,0.150,0.150,0.350,0.200,0.100,0.000,0.050,0.250
+1,what arguments say obesity isn't a disease,obesity not a disease arguments,con,0.050,0.100,0.100,0.050,0.150,0.000,0.050,0.000,0.000,0.150,0.250
+1,should we stop calling obesity a disease,stop calling obesity disease,con,0.000,0.100,0.100,0.050,0.100,0.050,0.050,0.050,0.350,0.050,0.000
+1,why obesity shouldn't be labeled a disease,obesity disease label criticism,con,0.200,0.200,0.200,0.200,0.000,0.250,0.200,0.150,0.300,0.300,0.300
+1,is obesity just a condition not a disease,obesity condition not disease,con,0.000,0.100,0.100,0.200,0.050,0.050,0.200,0.000,0.850,0.200,0.050
+1,what are reasons obesity shouldn't be medicalized,obesity not medicalized reasons,con,0.000,0.200,0.250,0.300,0.000,0.150,0.350,0.000,0.150,0.150,0.050
+1,why obesity doesn't qualify as a disease,obesity not qualifying disease,con,0.000,0.100,0.200,0.300,0.100,0.450,0.400,0.050,0.100,0.050,0.150
+1,is obesity simply weight gain not a disease,obesity weight gain not disease,con,0.000,0.050,0.150,0.050,0.200,0.050,0.050,0.100,0.800,0.050,0.000
+1,what opinions oppose calling obesity a disease,opinions opposing obesity disease,con,0.000,0.150,0.000,0.050,0.150,0.050,0.000,0.100,0.100,0.050,0.150
+1,why is obesity not a disease,obesity not disease,con,0.000,0.100,0.150,0.150,0.150,0.400,0.050,0.100,0.000,0.050,0.000
+1,why is obesity not considered a medical condition,obesity not medical condition,con,0.150,0.100,0.250,0.200,0.400,0.300,0.050,0.100,0.200,0.000,0.100
+1,is obesity being overdiagnosed as a disease,obesity overdiagnosis,con,0.150,0.250,0.100,0.150,0.200,0.250,0.050,0.250,0.150,0.350,0.000
+1,why is there debate about classifying obesity as a disease,obesity classification debate,con,0.200,0.150,0.050,0.100,0.100,0.050,0.050,0.200,0.150,0.050,0.050
+2,why cell phone radiation is safe,cell phone radiation safe,pro,0.000,0.100,0.000,0.050,0.050,0.100,0.050,0.100,0.300,0.500,0.000
+2,is cell phone radiation safe to use,cell phone radiation safety,pro,0.100,0.150,0.050,0.050,0.150,0.150,0.050,0.000,0.150,0.050,0.050
+2,how cell phone radiation is harmless,cell phone radiation harmless,pro,0.000,0.200,0.200,0.100,0.000,0.150,0.300,0.100,0.300,0.200,0.000
+2,why we say cell phone radiation is safe,cell phone radiation safe claims,pro,0.100,0.100,0.050,0.050,0.050,0.100,0.150,0.000,0.150,0.300,0.450
+2,what supports that cell phone radiation is safe,cell phone radiation safety support,pro,0.000,0.050,0.100,0.050,0.100,0.100,0.100,0.100,0.250,0.550,0.300
+2,are there benefits of cell phone radiation safety,cell phone radiation safety benefits,pro,0.000,0.150,0.050,0.050,0.000,0.100,0.050,0.000,0.500,0.000,0.000
+2,what evidence shows cell phone radiation is safe,cell phone radiation safety evidence,pro,0.000,0.100,0.100,0.150,0.050,0.150,0.100,0.100,0.100,0.300,0.400
+2,why worry less about cell phone radiation,less worry cell phone radiation,pro,0.000,0.200,0.100,0.100,0.050,0.000,0.050,0.100,0.050,0.100,0.300
+2,how cell phone radiation stays within safe limits,cell phone radiation safe limits,pro,0.000,0.100,0.050,0.200,0.100,0.050,0.150,0.050,0.350,0.100,0.250
+2,why experts say cell phone radiation is safe,cell phone radiation expert support,pro,0.100,0.100,0.050,0.000,0.050,0.100,0.050,0.000,0.600,0.400,0.550
+2,why is cell phone radiation safe,cell phone radiation safety,pro,0.000,0.050,0.050,0.100,0.150,0.100,0.200,0.050,0.500,0.650,0.050
+2,is cell phone radiation safe,cell phone radiation safe,pro,0.000,0.000,0.000,0.000,0.050,0.100,0.050,0.200,0.300,0.100,0.100
+2,what are the benefits of cell phone radiation being safe,cell phone radiation benefits,pro,0.150,0.200,0.100,0.200,0.050,0.200,0.100,0.000,0.150,0.450,0.350
+2,why is cell phone radiation harmless,cell phone radiation harmless,pro,0.000,0.050,0.100,0.000,0.000,0.200,0.050,0.100,0.450,0.150,0.000
+2,what evidence shows cell phone radiation is safe,safe cell phone radiation evidence,pro,0.000,0.100,0.000,0.200,0.000,0.000,0.100,0.000,0.150,0.400,0.350
+2,why does cell phone radiation cause no harm,cell phone radiation no harm,pro,0.300,0.100,0.050,0.050,0.200,0.100,0.100,0.000,0.100,0.250,0.250
+2,are cell phone radiation levels acceptable,cell phone radiation acceptable levels,pro,0.000,0.050,0.200,0.100,0.000,0.100,0.200,0.000,0.050,0.100,0.000
+2,what supports cell phone radiation safety,support cell phone radiation safety,pro,0.000,0.150,0.000,0.100,0.050,0.100,0.050,0.050,0.050,0.050,0.000
+2,why is cell phone radiation low risk,cell phone radiation low risk,pro,0.000,0.000,0.100,0.150,0.050,0.000,0.050,0.100,0.050,0.200,0.200
+2,why is cell phone radiation considered okay,cell phone radiation okay,pro,0.000,0.050,0.050,0.150,0.050,0.100,0.200,0.000,0.200,0.100,0.200
+2,what do we know about cell phone radiation safety,cell phone radiation knowledge safety,neutral,0.200,0.050,0.050,0.050,0.150,0.050,0.050,0.000,0.100,0.250,0.050
+2,what is the debate on cell phone radiation safety,cell phone radiation safety debate,neutral,0.000,0.050,0.050,0.000,0.050,0.000,0.000,0.050,0.150,0.050,0.000
+2,what are opinions on cell phone radiation safety,cell phone radiation safety opinions,neutral,0.000,0.050,0.000,0.050,0.000,0.050,0.050,0.100,0.100,0.100,0.000
+2,what evidence exists about cell phone radiation safety,cell phone radiation safety evidence,neutral,0.100,0.150,0.100,0.050,0.000,0.100,0.200,0.100,0.050,0.000,0.100
+2,what are pros and cons of cell phone radiation safety claims,cell phone radiation safety pros cons,neutral,0.100,0.100,0.000,0.050,0.250,0.100,0.000,0.100,0.000,0.100,0.100
+2,what are the effects of cell phone radiation,cell phone radiation effects,neutral,0.000,0.000,0.000,0.000,0.150,0.000,0.000,0.100,0.050,0.000,0.050
+2,what does cell phone radiation exposure do,cell phone radiation exposure,neutral,0.000,0.100,0.050,0.050,0.100,0.000,0.000,0.100,0.000,0.000,0.050
+2,what evidence exists on cell phone radiation safety,cell phone radiation safety evidence,neutral,0.100,0.150,0.100,0.050,0.000,0.100,0.100,0.100,0.000,0.200,0.000
+2,why cell phone radiation isn't safe,cell phone radiation unsafe,con,0.100,0.100,0.050,0.100,0.050,0.150,0.050,0.150,0.100,0.050,0.100
+2,how cell phone radiation can harm you,cell phone radiation harm,con,0.000,0.100,0.000,0.100,0.050,0.100,0.050,0.050,0.250,0.000,0.050
+2,what risks come from cell phone radiation,cell phone radiation risks,con,0.000,0.050,0.000,0.050,0.200,0.000,0.000,0.050,0.050,0.000,0.050
+2,why we should worry about cell phone radiation,cell phone radiation concerns,con,0.050,0.150,0.050,0.050,0.100,0.150,0.000,0.100,0.050,0.100,0.150
+2,is cell phone radiation dangerous,cell phone radiation danger,con,0.200,0.200,0.000,0.050,0.050,0.050,0.100,0.100,0.050,0.150,0.150
+2,what are negative effects of cell phone radiation,cell phone radiation negative effects,con,0.000,0.000,0.000,0.000,0.000,0.050,0.000,0.000,0.000,0.000,0.050
+2,what problems are linked to cell phone radiation,cell phone radiation problems,con,0.050,0.050,0.100,0.150,0.200,0.100,0.200,0.050,0.000,0.100,0.050
+2,what are cell phone radiation cons,cell phone radiation cons,con,0.000,0.050,0.000,0.000,0.100,0.000,0.000,0.050,0.000,0.000,0.100
+2,what are the dangers of cell phone radiation,cell phone radiation dangers,con,0.000,0.000,0.050,0.000,0.000,0.050,0.200,0.050,0.050,0.050,0.100
+2,how is cell phone radiation harmful,cell phone radiation harmful,con,0.000,0.050,0.000,0.100,0.000,0.050,0.100,0.000,0.100,0.000,0.050
+2,what risks come from cell phone radiation,cell phone radiation risks,con,0.000,0.050,0.000,0.050,0.200,0.000,0.000,0.050,0.050,0.000,0.050
+2,why is cell phone radiation unsafe,cell phone radiation unsafe,con,0.000,0.050,0.000,0.000,0.000,0.150,0.050,0.000,0.100,0.000,0.050
+2,what negative effects does cell phone radiation have,cell phone radiation negative effects,con,0.000,0.000,0.000,0.000,0.100,0.100,0.000,0.000,0.000,0.000,0.050
+2,what problems come from cell phone radiation,cell phone radiation problems,con,0.000,0.150,0.100,0.150,0.100,0.000,0.250,0.100,0.000,0.050,0.050
+2,why do people doubt cell phone radiation safety,cell phone radiation doubts,con,0.150,0.250,0.050,0.050,0.200,0.050,0.100,0.000,0.350,0.200,0.100
+2,what concerns exist about cell phone radiation,cell phone radiation concerns,con,0.000,0.100,0.000,0.000,0.050,0.200,0.050,0.150,0.150,0.000,0.000
+2,what side effects does cell phone radiation cause,cell phone radiation side effects,con,0.300,0.100,0.050,0.100,0.000,0.100,0.100,0.000,0.150,0.000,0.250
+2,why should we avoid cell phone radiation,avoid cell phone radiation,con,0.000,0.100,0.050,0.100,0.050,0.100,0.000,0.050,0.050,0.000,0.250
+3,why banning bottled water makes sense,banning bottled water sense,pro,0.000,0.100,0.050,0.100,0.200,0.150,0.100,0.100,0.200,0.050,0.200
+3,what are benefits of banning bottled water,banning bottled water benefits,pro,0.000,0.050,0.050,0.100,0.050,0.050,0.100,0.200,0.000,0.050,0.000
+3,why should we ban bottled water,ban bottled water reasons,pro,0.150,0.100,0.000,0.300,0.100,0.100,0.100,0.100,0.100,0.050,0.150
+3,what are bottled water ban advantages,bottled water ban advantages,pro,0.000,0.100,0.000,0.000,0.000,0.100,0.000,0.000,0.100,0.200,0.100
+3,how does banning bottled water help,banning bottled water help,pro,0.000,0.000,0.000,0.050,0.150,0.050,0.100,0.000,0.050,0.050,0.050
+3,what positive effects come from banning bottled water,bottled water ban positive effects,pro,0.300,0.300,0.000,0.150,0.050,0.050,0.000,0.200,0.050,0.100,0.150
+3,why supporting a bottled water ban is good,support bottled water ban good,pro,0.000,0.300,0.000,0.100,0.100,0.050,0.100,0.100,0.000,0.100,0.100
+3,what arguments support banning bottled water,arguments supporting bottled water ban,pro,0.150,0.250,0.100,0.100,0.050,0.050,0.000,0.100,0.100,0.200,0.100
+3,how would a bottled water ban improve things,bottled water ban improvements,pro,0.100,0.000,0.050,0.150,0.100,0.100,0.100,0.000,0.400,0.000,0.000
+3,what are pros of a bottled water ban,bottled water ban pros,pro,0.000,0.100,0.050,0.100,0.000,0.050,0.150,0.100,0.000,0.000,0.100
+3,what are the benefits of banning bottled water,ban bottled water benefits,pro,0.250,0.150,0.050,0.000,0.050,0.000,0.000,0.000,0.100,0.150,0.100
+3,what are the pros of a bottled water ban,bottled water ban pros,pro,0.000,0.100,0.050,0.100,0.000,0.150,0.150,0.100,0.000,0.000,0.100
+3,why should we support a bottled water ban,support bottled water ban,pro,0.000,0.200,0.100,0.000,0.050,0.150,0.050,0.100,0.050,0.000,0.100
+3,what are the advantages of a bottled water ban,bottled water ban advantages,pro,0.000,0.100,0.100,0.000,0.100,0.000,0.050,0.000,0.100,0.000,0.000
+3,what are the positive effects of banning bottled water,bottled water ban positive effects,pro,0.300,0.200,0.000,0.100,0.100,0.050,0.000,0.200,0.100,0.250,0.400
+3,what are the reasons to ban bottled water,ban bottled water reasons,pro,0.000,0.150,0.100,0.100,0.000,0.000,0.100,0.000,0.150,0.100,0.100
+3,why is banning bottled water a good idea,bottled water ban good idea,pro,0.300,0.400,0.050,0.050,0.050,0.200,0.100,0.000,0.050,0.300,0.050
+3,what opinions support a bottled water ban,bottled water ban support opinions,pro,0.000,0.050,0.000,0.100,0.000,0.050,0.050,0.100,0.100,0.100,0.000
+3,should bottled water be banned or not,bottled water ban choice,neutral,0.200,0.100,0.300,0.100,0.200,0.300,0.100,0.050,0.150,0.050,0.100
+3,what are arguments for and against banning bottled water,bottled water ban arguments,neutral,0.250,0.150,0.000,0.100,0.050,0.100,0.050,0.200,0.450,0.300,0.100
+3,what are pros and cons of bottled water bans,bottled water ban pros cons,neutral,0.200,0.200,0.000,0.000,0.000,0.050,0.050,0.000,0.100,0.350,0.100
+3,what is the debate about banning bottled water,bottled water ban debate,neutral,0.250,0.250,0.000,0.050,0.050,0.050,0.000,0.100,0.050,0.350,0.050
+3,what are effects of banning bottled water,bottled water ban effects,neutral,0.300,0.250,0.050,0.100,0.100,0.050,0.050,0.100,0.050,0.250,0.200
+3,why do people support or oppose banning bottled water,bottled water ban support opposition,neutral,0.050,0.150,0.000,0.100,0.000,0.100,0.200,0.200,0.350,0.150,0.100
+3,what happens if bottled water is banned,bottled water ban outcomes,neutral,0.150,0.200,0.050,0.350,0.100,0.100,0.100,0.000,0.000,0.100,0.250
+3,what are opinions on banning bottled water,bottled water ban opinions,neutral,0.250,0.250,0.100,0.100,0.100,0.100,0.000,0.000,0.400,0.300,0.200
+3,what is the debate about a bottled water ban,bottled water ban debate,neutral,0.000,0.100,0.000,0.050,0.050,0.050,0.050,0.100,0.250,0.000,0.050
+3,should bottled water be banned or not,bottled water ban choice,neutral,0.200,0.100,0.300,0.100,0.200,0.300,0.100,0.050,0.150,0.050,0.100
+3,what are the pros and cons of banning bottled water,bottled water ban pros cons,neutral,0.200,0.050,0.000,0.100,0.050,0.150,0.100,0.100,0.200,0.200,0.050
+3,what are the effects of a bottled water ban,bottled water ban effects,neutral,0.000,0.200,0.050,0.050,0.000,0.000,0.050,0.100,0.100,0.000,0.200
+3,what are opinions on banning bottled water,bottled water ban opinions,neutral,0.250,0.250,0.100,0.100,0.100,0.100,0.000,0.000,0.400,0.300,0.200
+3,what are the arguments about banning bottled water,bottled water ban arguments,neutral,0.250,0.100,0.100,0.100,0.050,0.100,0.050,0.100,0.300,0.500,0.200
+3,what are the impacts of banning bottled water,bottled water ban impacts,neutral,0.200,0.200,0.100,0.100,0.000,0.050,0.150,0.100,0.050,0.050,0.100
+3,what is the discussion about banning bottled water,bottled water ban discussion,neutral,0.250,0.250,0.050,0.050,0.100,0.100,0.200,0.000,0.350,0.250,0.400
+3,why bottled water shouldn't be banned,bottled water not banned,con,0.000,0.050,0.100,0.000,0.250,0.300,0.300,0.000,0.150,0.100,0.250
+3,why banning bottled water is bad,ban bottled water bad,con,0.200,0.300,0.150,0.100,0.000,0.100,0.000,0.000,0.400,0.300,0.200
+3,should bottled water stay legal,keep bottled water legal,con,0.000,0.150,0.100,0.000,0.000,0.150,0.400,0.000,0.600,0.250,0.100
+3,what are benefits of bottled water,bottled water benefits,con,0.000,0.100,0.000,0.200,0.000,0.000,0.050,0.000,0.050,0.000,0.150
+3,why people still need bottled water,need for bottled water,con,0.100,0.200,0.300,0.050,0.050,0.100,0.100,0.100,0.100,0.050,0.050
+3,what are disadvantages of banning bottled water,banning bottled water disadvantages,con,0.000,0.050,0.100,0.000,0.000,0.100,0.050,0.000,0.100,0.050,0.100
+3,what problems come from banning bottled water,ban bottled water problems,con,0.250,0.300,0.150,0.200,0.050,0.250,0.100,0.100,0.150,0.250,0.150
+3,why bottled water is still useful,bottled water usefulness,con,0.050,0.250,0.150,0.000,0.100,0.100,0.100,0.150,0.150,0.150,0.350
+3,what are bottled water pros,bottled water pros,con,0.000,0.150,0.100,0.000,0.050,0.000,0.100,0.100,0.100,0.100,0.000
+4,why zoos should exist,zoos should exist,pro,0.000,0.000,0.250,0.050,0.150,0.150,0.000,0.000,0.050,0.000,0.300
+4,why zoos are good,zoos good,pro,0.000,0.050,0.100,0.000,0.000,0.100,0.100,0.300,0.050,0.000,0.050
+4,what are zoos benefits,zoos benefits,pro,0.000,0.200,0.000,0.000,0.000,0.000,0.000,0.050,0.050,0.000,0.050
+4,what are zoos advantages,zoos advantages,pro,0.000,0.200,0.000,0.100,0.050,0.000,0.050,0.000,0.000,0.000,0.000
+4,why we need zoos,need zoos,pro,0.000,0.100,0.200,0.100,0.100,0.150,0.100,0.150,0.100,0.100,0.200
+4,what positive effects zoos have,zoos positive effects,pro,0.000,0.250,0.100,0.000,0.100,0.100,0.100,0.000,0.000,0.000,0.000
+4,what arguments support zoos,arguments supporting zoos,pro,0.250,0.150,0.000,0.300,0.100,0.000,0.000,0.200,0.000,0.100,0.100
+4,why zoos are important,zoos important,pro,0.000,0.150,0.000,0.100,0.050,0.000,0.000,0.100,0.100,0.050,0.200
+4,what are zoos benefits,zoos benefits,pro,0.000,0.200,0.000,0.000,0.000,0.000,0.000,0.050,0.050,0.000,0.050
+4,what are zoos advantages,zoos advantages,pro,0.000,0.200,0.000,0.100,0.050,0.000,0.050,0.000,0.000,0.000,0.000
+4,what are positive effects of zoos,zoos positive effects,pro,0.000,0.100,0.100,0.100,0.000,0.000,0.100,0.000,0.050,0.000,0.000
+4,why are zoos good,zoos good reasons,pro,0.100,0.000,0.100,0.200,0.150,0.100,0.100,0.200,0.050,0.200,0.250
+4,why should we support zoos,support zoos,pro,0.000,0.250,0.100,0.050,0.000,0.000,0.000,0.200,0.050,0.000,0.100
+4,what is the value of zoos,zoos value,pro,0.000,0.100,0.050,0.000,0.050,0.100,0.200,0.050,0.000,0.200,0.000
+4,why are zoos important,zoos importance,pro,0.100,0.150,0.000,0.000,0.050,0.000,0.000,0.150,0.100,0.150,0.050
+4,what are zoos pros,zoos pros,pro,0.000,0.300,0.000,0.000,0.050,0.050,0.100,0.000,0.100,0.150,0.100
+4,why people support or oppose zoos,people support oppose zoos,neutral,0.000,0.100,0.200,0.350,0.050,0.050,0.150,0.150,0.350,0.150,0.150
+4,should zoos exist or not,zoos existence choice,neutral,0.000,0.150,0.000,0.200,0.250,0.000,0.100,0.000,0.300,0.150,0.150
+4,what are pros and cons of zoos,zoos pros cons,neutral,0.000,0.100,0.100,0.100,0.000,0.050,0.150,0.000,0.100,0.000,0.100
+4,what is the debate about whether zoos should exist,zoos existence debate,neutral,0.050,0.050,0.100,0.200,0.100,0.000,0.000,0.150,0.150,0.150,0.250
+4,what are opinions on zoos,zoos opinions,neutral,0.000,0.200,0.050,0.050,0.000,0.000,0.050,0.050,0.150,0.100,0.100
+4,what is the discussion about zoos existing,zoos existence discussion,neutral,0.100,0.100,0.100,0.100,0.200,0.150,0.000,0.200,0.050,0.050,0.150
+4,what is the debate on whether zoos should exist,zoos exist debate,neutral,0.000,0.050,0.100,0.050,0.000,0.050,0.100,0.150,0.050,0.100,0.050
+4,should zoos exist or not,zoos existence choice,neutral,0.000,0.150,0.000,0.200,0.250,0.000,0.100,0.000,0.300,0.100,0.150
+4,what is the purpose or value of zoos,zoos purpose value,neutral,0.000,0.300,0.100,0.000,0.050,0.000,0.050,0.050,0.000,0.250,0.050
+4,what are the pros and cons of zoos,zoos pros cons,neutral,0.000,0.100,0.100,0.150,0.000,0.050,0.050,0.000,0.100,0.050,0.100
+4,what are the benefits and harms of zoos,zoos benefits harms,neutral,0.000,0.100,0.050,0.000,0.100,0.100,0.150,0.050,0.100,0.150,0.050
+4,what are public opinions on zoos,zoos public opinions,neutral,0.000,0.100,0.150,0.000,0.000,0.000,0.000,0.050,0.100,0.100,0.150
+4,why zoos shouldn't exist,zoos shouldn't exist,con,0.000,0.050,0.200,0.000,0.100,0.100,0.100,0.000,0.050,0.000,0.100
+4,why zoos are bad,zoos bad,con,0.000,0.100,0.050,0.100,0.200,0.000,0.000,0.100,0.100,0.000,0.350
+4,should we get rid of zoos,get rid of zoos,con,0.000,0.300,0.150,0.100,0.100,0.200,0.100,0.200,0.050,0.000,0.150
+4,what are arguments against zoos,arguments against zoos,con,0.000,0.050,0.000,0.000,0.000,0.000,0.000,0.000,0.050,0.000,0.100
+4,what are zoos cons,zoos cons,con,0.000,0.200,0.200,0.100,0.000,0.000,0.200,0.000,0.000,0.100,0.050
+4,what are disadvantages of zoos,zoos disadvantages,con,0.000,0.100,0.000,0.100,0.000,0.000,0.100,0.000,0.000,0.200,0.450
+4,what problems do zoos cause,zoos problems,con,0.000,0.200,0.000,0.100,0.100,0.000,0.000,0.050,0.050,0.050,0.000
+4,why zoos don't work,zoos fail,con,0.050,0.050,0.150,0.050,0.250,0.200,0.050,0.150,0.000,0.100,0.100
+4,should we ban zoos,ban zoos,con,0.000,0.250,0.200,0.050,0.000,0.100,0.050,0.100,0.050,0.100,0.100
+4,what are negative effects of zoos,zoos negative effects,con,0.000,0.100,0.000,0.000,0.000,0.000,0.000,0.000,0.050,0.000,0.450
+4,what are disadvantages of zoos,zoos disadvantages,con,0.000,0.100,0.000,0.100,0.000,0.000,0.100,0.000,0.000,0.050,0.450
+4,what are zoos cons,zoos cons,con,0.000,0.200,0.200,0.100,0.000,0.000,0.200,0.000,0.000,0.150,0.050
+4,what opinions oppose zoos,opinions opposing zoos,con,0.100,0.100,0.050,0.050,0.050,0.000,0.000,0.150,0.000,0.100,0.050
+4,why are zoos unnecessary,zoos unnecessary,con,0.000,0.150,0.250,0.100,0.000,0.200,0.100,0.450,0.050,0.100,0.050
+5,why social networking sites are good for society,social networking sites good for society,pro,0.000,0.150,0.100,0.100,0.000,0.100,0.050,0.150,0.100,0.000,0.050
+5,how social networking sites help society,social networking sites help society,pro,0.000,0.250,0.000,0.100,0.100,0.050,0.100,0.150,0.100,0.050,0.050
+5,are social networking sites beneficial for our society,social networking sites benefits society,pro,0.300,0.150,0.000,0.150,0.000,0.000,0.100,0.050,0.000,0.200,0.150
+5,what are positives of social networking sites for society,social networking sites positives society,pro,0.000,0.000,0.150,0.050,0.000,0.200,0.150,0.100,0.150,0.000,0.100
+5,why society benefits from social networking sites,society benefits social networking sites,pro,0.000,0.050,0.000,0.000,0.100,0.050,0.000,0.050,0.050,0.100,0.050
+5,what advantages do social networking sites give society,social networking sites advantages society,pro,0.050,0.050,0.100,0.000,0.100,0.050,0.000,0.150,0.100,0.000,0.100
+5,how social networking sites improve society,social networking sites improve society,pro,0.000,0.250,0.000,0.100,0.000,0.000,0.000,0.200,0.100,0.050,0.150
+5,why social networking sites support our society,social networking sites support society,pro,0.000,0.100,0.100,0.150,0.150,0.100,0.000,0.100,0.100,0.050,0.200
+5,what are social benefits of social networking sites,social networking sites social benefits,pro,0.000,0.100,0.000,0.050,0.000,0.050,0.050,0.100,0.200,0.100,0.050
+5,how social networking sites make society better,social networking sites make society better,pro,0.000,0.250,0.050,0.000,0.000,0.000,0.000,0.050,0.050,0.000,0.100
+5,why are social networking sites good,social networking sites good,pro,0.000,0.050,0.100,0.050,0.050,0.100,0.150,0.050,0.000,0.000,0.100
+5,what are the benefits of social networking sites,social networking sites benefits,pro,0.000,0.050,0.050,0.000,0.000,0.000,0.050,0.050,0.000,0.000,0.100
+5,what are the advantages of social networking sites,social networking sites advantages,pro,0.000,0.050,0.000,0.000,0.050,0.050,0.050,0.000,0.000,0.100,0.200
+5,how do social networking sites help society,social networking sites help society,pro,0.000,0.200,0.100,0.000,0.100,0.050,0.100,0.150,0.100,0.050,0.050
+5,what is the positive impact of social networking sites,social networking sites positive impact,pro,0.000,0.100,0.050,0.100,0.100,0.000,0.050,0.000,0.000,0.000,0.050
+5,what are the positive effects of social networking sites,social networking sites positive effects,pro,0.000,0.100,0.100,0.000,0.000,0.050,0.050,0.100,0.000,0.000,0.100
+5,how do social networking sites improve society,social networking sites improve society,pro,0.000,0.150,0.000,0.150,0.000,0.000,0.000,0.150,0.150,0.000,0.000
+5,what is the value of social networking sites for society,social networking sites value,pro,0.100,0.150,0.100,0.250,0.200,0.050,0.100,0.100,0.100,0.100,0.200
+5,why are social networking sites good for society,social networking sites good for society,pro,0.000,0.150,0.100,0.100,0.000,0.100,0.050,0.150,0.100,0.050,0.000
+5,why people say social networking sites help or harm society,social networking sites help harm society,neutral,0.100,0.000,0.150,0.050,0.100,0.000,0.100,0.050,0.150,0.150,0.050
+5,what are pros and cons of social networking sites for society,social networking sites pros cons society,neutral,0.000,0.100,0.100,0.100,0.000,0.250,0.150,0.000,0.200,0.050,0.000
+5,how social networking sites affect our society,social networking sites effects society,neutral,0.050,0.100,0.000,0.200,0.150,0.100,0.100,0.000,0.100,0.100,0.150
+5,what is the debate on social networking sites and society,social networking sites debate society,neutral,0.000,0.150,0.000,0.100,0.100,0.050,0.100,0.000,0.150,0.100,0.000
+5,what are social impacts of social networking sites,social networking sites social impacts,neutral,0.000,0.150,0.000,0.000,0.000,0.000,0.000,0.000,0.050,0.100,0.100
+5,how society benefits or suffers from social networking sites,society benefits harms social networking sites,neutral,0.000,0.100,0.300,0.150,0.050,0.200,0.050,0.000,0.150,0.050,0.050
+5,what is the discussion about social networking sites in society,social networking sites discussion society,neutral,0.000,0.100,0.100,0.050,0.100,0.050,0.100,0.150,0.200,0.050,0.150
+5,are social networking sites positive or negative for society,social networking sites positive negative society,neutral,0.000,0.000,0.100,0.100,0.050,0.000,0.050,0.000,0.050,0.100,0.000
+5,what is the impact of social networking sites on society,social networking sites society impact,neutral,0.000,0.200,0.100,0.100,0.050,0.000,0.050,0.050,0.000,0.100,0.200
+5,are social networking sites good or bad for society,social networking sites good bad,neutral,0.050,0.100,0.100,0.050,0.200,0.050,0.050,0.050,0.150,0.050,0.200
+5,what is the debate about social networking sites and society,social networking sites society debate,neutral,0.000,0.050,0.000,0.100,0.100,0.050,0.000,0.100,0.150,0.100,0.100
+5,what are the effects of social networking sites on society,social networking sites effects society,neutral,0.000,0.100,0.000,0.000,0.000,0.000,0.050,0.000,0.050,0.200,0.000
+5,how do social networking sites influence society,social networking sites influence society,neutral,0.000,0.150,0.050,0.050,0.000,0.000,0.000,0.100,0.150,0.100,0.200
+5,what are the pros and cons of social networking sites for society,social networking sites pros cons society,neutral,0.000,0.000,0.100,0.100,0.000,0.250,0.150,0.000,0.200,0.200,0.100
+5,what are opinions on social networking sites in society,social networking sites society opinions,neutral,0.000,0.250,0.150,0.000,0.100,0.050,0.050,0.150,0.150,0.000,0.100
+5,why social networking sites are bad for society,social networking sites bad for society,con,0.000,0.000,0.000,0.000,0.100,0.050,0.050,0.150,0.050,0.050,0.100
+5,what are negative effects of social networking sites,social networking sites negative effects,con,0.000,0.100,0.000,0.050,0.050,0.000,0.100,0.000,0.000,0.050,0.050
+5,are social networking sites harming society,social networking sites harming society,con,0.000,0.100,0.100,0.150,0.000,0.100,0.200,0.150,0.000,0.000,0.050
+5,why society should avoid social networking sites,society avoid social networking sites,con,0.000,0.150,0.150,0.050,0.000,0.000,0.000,0.050,0.150,0.000,0.500
+5,what are disadvantages of social networking sites,social networking sites disadvantages,con,0.000,0.150,0.100,0.100,0.100,0.050,0.000,0.000,0.050,0.000,0.050
+5,why social networking sites don't help society,social networking sites no benefits society,con,0.100,0.050,0.250,0.100,0.200,0.150,0.300,0.300,0.000,0.100,0.500
+5,are social networking sites making society worse,social networking sites make society worse,con,0.000,0.000,0.000,0.000,0.050,0.150,0.200,0.200,0.050,0.100,0.150
+5,why social networking sites are unhealthy for society,social networking sites unhealthy society,con,0.000,0.150,0.000,0.100,0.050,0.100,0.000,0.050,0.050,0.100,0.350
+5,what are social networking sites cons,social networking sites cons,con,0.000,0.100,0.000,0.100,0.050,0.000,0.100,0.000,0.050,0.000,0.100
+5,should society reduce use of social networking sites,reduce social networking sites use society,con,0.000,0.100,0.050,0.100,0.100,0.100,0.150,0.100,0.050,0.150,0.000
+5,why are social networking sites bad,social networking sites bad,con,0.000,0.350,0.000,0.050,0.050,0.000,0.050,0.050,0.000,0.000,0.100
+5,how do social networking sites harm society,social networking sites harm society,con,0.000,0.150,0.000,0.000,0.000,0.100,0.100,0.000,0.050,0.000,0.350
+5,what are the negative effects of social networking sites,social networking sites negative effects,con,0.000,0.050,0.000,0.100,0.050,0.000,0.100,0.000,0.000,0.050,0.100
+5,what are the disadvantages of social networking sites,social networking sites disadvantages,con,0.000,0.050,0.100,0.100,0.000,0.050,0.000,0.050,0.050,0.050,0.150
+5,what are the cons of social networking sites,social networking sites cons,con,0.000,0.150,0.000,0.100,0.100,0.050,0.050,0.000,0.050,0.050,0.150
+5,is society worse with social networking sites,society worse with social networking sites,con,0.000,0.150,0.000,0.000,0.100,0.000,0.200,0.000,0.000,0.000,0.200
+5,what problems do social networking sites cause,problems social networking sites,con,0.000,0.200,0.050,0.050,0.000,0.100,0.000,0.150,0.050,0.050,0.350
+5,how are social networking sites unhealthy for society,social networking sites unhealthy,con,0.100,0.350,0.100,0.050,0.050,0.050,0.050,0.100,0.100,0.050,0.200
+5,what are common criticisms of social networking sites,criticisms social networking sites,con,0.050,0.100,0.050,0.050,0.000,0.050,0.000,0.000,0.000,0.050,0.100
+5,what are the risks of social networking sites,social networking sites risks,con,0.000,0.150,0.000,0.000,0.000,0.050,0.050,0.100,0.000,0.050,0.300
+6,what are vegetarian diet pros,vegetarian diet pros,pro,0.000,0.000,0.100,0.000,0.000,0.050,0.050,0.100,0.000,0.100,0.000
+6,why people should be vegetarian,people should be vegetarian,pro,0.000,0.100,0.100,0.100,0.150,0.100,0.050,0.050,0.050,0.000,0.150
+6,what are advantages of being vegetarian,advantages being vegetarian,pro,0.000,0.050,0.000,0.100,0.050,0.050,0.100,0.050,0.050,0.000,0.100
+6,what are positive effects of going vegetarian,positive effects going vegetarian,pro,0.000,0.100,0.100,0.050,0.100,0.050,0.050,0.000,0.000,0.000,0.000
+6,what benefits support becoming vegetarian,benefits supporting becoming vegetarian,pro,0.100,0.100,0.050,0.050,0.150,0.000,0.000,0.000,0.000,0.050,0.300
+6,how is vegetarian choice beneficial,vegetarian choice beneficial,pro,0.000,0.100,0.100,0.050,0.100,0.000,0.050,0.000,0.100,0.100,0.100
+6,what are benefits of become vegetarian,become vegetarian benefits,pro,0.000,0.100,0.050,0.050,0.050,0.000,0.000,0.100,0.000,0.050,0.000
+6,what are pros of a vegetarian diet,vegetarian diet pros,pro,0.000,0.150,0.000,0.100,0.050,0.150,0.250,0.100,0.000,0.000,0.050
+6,why support becoming vegetarian,support becoming vegetarian,pro,0.000,0.000,0.150,0.000,0.100,0.100,0.150,0.050,0.150,0.000,0.100
+6,what are positive effects of being vegetarian,vegetarian positive effects,pro,0.000,0.050,0.200,0.000,0.100,0.100,0.050,0.100,0.050,0.000,0.200
+6,what are reasons to become vegetarian,reasons become vegetarian,pro,0.000,0.100,0.050,0.150,0.100,0.000,0.000,0.000,0.100,0.000,0.200
+6,why is becoming vegetarian a good idea,vegetarian good idea,pro,0.050,0.100,0.100,0.150,0.200,0.100,0.100,0.050,0.050,0.050,0.250
+6,what benefits come from choosing vegetarian,vegetarian choice benefits,pro,0.150,0.200,0.050,0.100,0.100,0.000,0.100,0.150,0.000,0.150,0.150
+6,what is the value of becoming vegetarian,value of becoming vegetarian,pro,0.000,0.150,0.050,0.100,0.000,0.000,0.000,0.000,0.050,0.050,0.050
+6,should people become vegetarian or not,people become vegetarian choice,neutral,0.100,0.200,0.150,0.150,0.100,0.150,0.000,0.150,0.100,0.150,0.000
+6,what happens if people become vegetarian,people become vegetarian effects,neutral,0.000,0.150,0.050,0.050,0.100,0.000,0.100,0.000,0.100,0.050,0.050
+6,what are pros and cons of becoming vegetarian,becoming vegetarian pros cons,neutral,0.000,0.000,0.000,0.000,0.000,0.100,0.050,0.100,0.050,0.050,0.050
+6,what are arguments about becoming vegetarian,becoming vegetarian arguments,neutral,0.000,0.050,0.050,0.000,0.050,0.050,0.000,0.000,0.050,0.100,0.050
+6,what are opinions on whether people should become vegetarian,people become vegetarian opinions,neutral,0.050,0.100,0.050,0.150,0.050,0.100,0.100,0.050,0.350,0.100,0.100
+6,how becoming vegetarian compares to staying non?vegetarian,vegetarian vs non?vegetarian,neutral,0.100,0.150,0.050,0.150,0.100,0.050,0.100,0.150,0.050,0.050,0.100
+6,what is the debate on becoming vegetarian,becoming vegetarian debate,neutral,0.000,0.250,0.000,0.100,0.100,0.100,0.100,0.050,0.050,0.050,0.000
+6,should people become vegetarian or not,become vegetarian choice,neutral,0.100,0.150,0.200,0.200,0.050,0.050,0.100,0.150,0.100,0.050,0.000
+6,what are pros and cons of becoming vegetarian,become vegetarian pros cons,neutral,0.250,0.300,0.000,0.000,0.000,0.100,0.050,0.100,0.100,0.150,0.300
+6,what are effects of becoming vegetarian,become vegetarian effects,neutral,0.300,0.300,0.050,0.050,0.050,0.100,0.000,0.100,0.200,0.200,0.200
+6,what is the debate about becoming vegetarian,become vegetarian debate,neutral,0.250,0.250,0.100,0.050,0.050,0.100,0.050,0.050,0.150,0.150,0.200
+6,what are differences between becoming vegetarian and not,become vegetarian vs not,neutral,0.300,0.100,0.050,0.000,0.000,0.100,0.050,0.100,0.150,0.150,0.300
+6,what are opinions on becoming vegetarian,become vegetarian opinions,neutral,0.300,0.200,0.050,0.150,0.100,0.150,0.050,0.100,0.100,0.300,0.250
+6,what is the impact of becoming vegetarian,become vegetarian impact,neutral,0.300,0.150,0.000,0.050,0.050,0.000,0.000,0.000,0.200,0.150,0.150
+6,what are disadvantages of becoming vegetarian,vegetarian disadvantages,con,0.050,0.000,0.100,0.050,0.050,0.050,0.150,0.100,0.100,0.100,0.200
+6,why becoming vegetarian is bad,vegetarian bad effects,con,0.100,0.100,0.100,0.100,0.100,0.000,0.050,0.300,0.050,0.100,0.150
+6,are there cons to becoming vegetarian,vegetarian cons,con,0.100,0.050,0.050,0.000,0.100,0.150,0.150,0.000,0.050,0.100,0.400
+6,why not become vegetarian,reasons against vegetarian,con,0.100,0.100,0.050,0.300,0.200,0.050,0.250,0.050,0.100,0.250,0.050
+6,what problems come from being vegetarian,vegetarian problems,con,0.000,0.050,0.000,0.050,0.250,0.050,0.000,0.100,0.150,0.150,0.400
+6,what are negative effects of vegetarian diets,vegetarian negative effects,con,0.200,0.150,0.000,0.150,0.050,0.000,0.100,0.100,0.000,0.050,0.150
+6,what arguments oppose becoming vegetarian,arguments against vegetarian,con,0.100,0.100,0.100,0.000,0.050,0.100,0.000,0.100,0.050,0.050,0.050
+6,what are the cons of becoming vegetarian,vegetarianism cons,con,0.100,0.050,0.100,0.100,0.100,0.100,0.100,0.150,0.000,0.150,0.100
+6,what are the disadvantages of a vegetarian diet,vegetarian diet disadvantages,con,0.000,0.100,0.050,0.050,0.000,0.050,0.050,0.000,0.000,0.150,0.250
+6,what are the negative effects of becoming vegetarian,vegetarianism negative effects,con,0.050,0.000,0.000,0.050,0.150,0.100,0.050,0.200,0.000,0.100,0.050
+6,what problems come with a vegetarian diet,problems with vegetarian diet,con,0.050,0.250,0.000,0.100,0.050,0.050,0.000,0.100,0.000,0.050,0.200
+6,what arguments oppose becoming vegetarian,anti vegetarian arguments,con,0.100,0.150,0.100,0.050,0.050,0.100,0.050,0.000,0.050,0.100,0.100
+6,what are reasons to not become vegetarian,reasons not vegetarian,con,0.000,0.100,0.000,0.000,0.050,0.000,0.050,0.150,0.000,0.150,0.250
+6,what risks come with a vegetarian diet,vegetarian diet risks,con,0.000,0.150,0.150,0.000,0.000,0.000,0.100,0.100,0.000,0.100,0.200
+6,what are the drawbacks of becoming vegetarian,vegetarianism drawbacks,con,0.050,0.000,0.100,0.150,0.000,0.050,0.200,0.250,0.000,0.150,0.150
+7,why drinking milk is healthy,drinking milk healthy,pro,0.000,0.300,0.100,0.150,0.100,0.150,0.100,0.000,0.050,0.000,0.050
+7,is drinking milk good for humans,drinking milk good for humans,pro,0.000,0.050,0.100,0.050,0.000,0.050,0.100,0.000,0.150,0.050,0.000
+7,what are benefits of drinking milk,drinking milk benefits,pro,0.000,0.050,0.000,0.050,0.100,0.000,0.000,0.000,0.000,0.000,0.050
+7,what are advantages of drinking milk,drinking milk advantages,pro,0.000,0.000,0.050,0.100,0.050,0.000,0.050,0.000,0.000,0.000,0.050
+7,why humans should drink milk,humans should drink milk,pro,0.000,0.150,0.050,0.050,0.050,0.050,0.000,0.050,0.000,0.000,0.100
+7,how drinking milk helps health,drinking milk health benefits,pro,0.250,0.200,0.100,0.100,0.000,0.050,0.100,0.050,0.050,0.000,0.100
+7,what positive effects come from drinking milk,drinking milk positive effects,pro,0.050,0.100,0.050,0.000,0.000,0.000,0.050,0.050,0.050,0.050,0.100
+7,what reasons support drinking milk,reasons supporting drinking milk,pro,0.050,0.100,0.150,0.100,0.050,0.000,0.000,0.100,0.050,0.150,0.050
+7,why is drinking milk healthy,drinking milk healthy,pro,0.000,0.300,0.100,0.150,0.100,0.150,0.100,0.000,0.000,0.050,0.150
+7,what are the health benefits of milk,milk health benefits,pro,0.000,0.100,0.000,0.050,0.100,0.000,0.000,0.000,0.000,0.100,0.000
+7,why is milk good for humans,milk good for humans,pro,0.000,0.200,0.050,0.050,0.100,0.100,0.000,0.000,0.050,0.000,0.050
+7,what are the advantages of drinking milk,milk advantages,pro,0.100,0.250,0.100,0.100,0.050,0.100,0.000,0.100,0.000,0.150,0.150
+7,what are the positive effects of drinking milk,milk positive effects,pro,0.150,0.150,0.000,0.000,0.150,0.200,0.150,0.050,0.050,0.100,0.050
+7,why should humans drink milk,support drinking milk,pro,0.050,0.150,0.100,0.150,0.100,0.250,0.150,0.100,0.050,0.200,0.150
+7,what are the health pros of drinking milk,milk health pros,pro,0.100,0.000,0.050,0.150,0.000,0.100,0.050,0.000,0.050,0.050,0.000
+7,is milk a good choice for human health,milk good choice,pro,0.150,0.100,0.100,0.050,0.150,0.100,0.050,0.100,0.150,0.200,0.200
+7,how does milk support human health,milk supports health,pro,0.000,0.100,0.050,0.050,0.050,0.200,0.050,0.050,0.000,0.050,0.050
+7,why drinking milk may or may not be healthy for humans,drinking milk health debate humans,neutral,0.050,0.100,0.100,0.050,0.200,0.200,0.100,0.050,0.050,0.050,0.250
+7,what are health effects of drinking milk for humans,drinking milk health effects humans,neutral,0.000,0.050,0.050,0.050,0.150,0.050,0.000,0.100,0.050,0.050,0.100
+7,what are pros and cons of drinking milk for humans,drinking milk pros cons humans,neutral,0.000,0.050,0.050,0.000,0.000,0.100,0.000,0.050,0.150,0.000,0.150
+7,what is the discussion about drinking milk and human health,drinking milk human health discussion,neutral,0.000,0.050,0.000,0.100,0.100,0.050,0.150,0.000,0.100,0.150,0.000
+7,what are arguments about drinking milk and human health,drinking milk human health arguments,neutral,0.000,0.150,0.000,0.000,0.000,0.000,0.050,0.050,0.250,0.200,0.000
+7,what is known about drinking milk and health in humans,drinking milk human health info,neutral,0.300,0.200,0.100,0.100,0.200,0.050,0.100,0.050,0.050,0.100,0.100
+7,what are the health effects of milk on humans,milk health effects humans,neutral,0.000,0.050,0.000,0.000,0.000,0.000,0.000,0.000,0.250,0.250,0.050
+7,what are the benefits and risks of drinking milk for humans,milk benefits risks humans,neutral,0.050,0.100,0.100,0.200,0.000,0.050,0.000,0.100,0.050,0.100,0.000
+7,what is the debate about milk and human health,milk human health debate,neutral,0.000,0.250,0.100,0.050,0.100,0.050,0.100,0.000,0.050,0.050,0.150
+7,is milk good or bad for human health,milk good bad humans,neutral,0.300,0.150,0.000,0.150,0.200,0.050,0.050,0.100,0.150,0.100,0.250
+7,what are opinions on milk and human health,milk health opinions,neutral,0.050,0.200,0.050,0.100,0.100,0.100,0.100,0.000,0.250,0.100,0.200
+7,what is the discussion about milk and human health,milk health discussion,neutral,0.000,0.150,0.000,0.150,0.100,0.100,0.050,0.150,0.200,0.100,0.150
+7,why drinking milk isn't healthy for humans,drinking milk unhealthy humans,con,0.050,0.200,0.000,0.050,0.050,0.000,0.000,0.000,0.050,0.000,0.200
+7,what are the negative effects of drinking milk,drinking milk negative effects,con,0.000,0.100,0.000,0.100,0.000,0.000,0.050,0.150,0.200,0.000,0.050
+7,why humans shouldn't drink milk,humans shouldn't drink milk,con,0.000,0.200,0.000,0.000,0.100,0.050,0.050,0.050,0.100,0.000,0.050
+7,is drinking milk bad for human health,drinking milk bad health,con,0.100,0.050,0.200,0.100,0.000,0.050,0.200,0.050,0.050,0.050,0.250
+7,what are the cons of drinking milk for humans,drinking milk cons humans,con,0.000,0.000,0.000,0.050,0.000,0.050,0.000,0.150,0.100,0.050,0.300
+7,why some people avoid drinking milk for health,avoid drinking milk health,con,0.250,0.100,0.050,0.050,0.100,0.000,0.150,0.100,0.150,0.200,0.000
+7,what health problems come from drinking milk,drinking milk health problems,con,0.100,0.100,0.000,0.100,0.050,0.050,0.000,0.050,0.050,0.000,0.200
+7,why drinking milk may harm humans,drinking milk harm humans,con,0.050,0.150,0.000,0.000,0.100,0.100,0.150,0.200,0.050,0.000,0.200
+7,is drinking milk unsafe for humans,drinking milk unsafe humans,con,0.000,0.100,0.050,0.100,0.200,0.050,0.250,0.150,0.150,0.050,0.100
+7,what are the disadvantages of drinking milk,drinking milk disadvantages,con,0.000,0.100,0.050,0.050,0.150,0.050,0.100,0.100,0.000,0.050,0.100
+7,why is drinking milk unhealthy,milk unhealthy,con,0.150,0.400,0.100,0.100,0.100,0.000,0.000,0.050,0.050,0.100,0.200
+7,what are the health risks of drinking milk,milk health risks,con,0.150,0.150,0.100,0.050,0.050,0.050,0.100,0.100,0.000,0.100,0.150
+7,what are the negative effects of drinking milk,milk negative effects,con,0.150,0.150,0.150,0.050,0.000,0.100,0.150,0.100,0.150,0.200,0.200
+7,how does milk harm health,milk harms health,con,0.000,0.000,0.000,0.100,0.100,0.000,0.100,0.150,0.100,0.050,0.100
+7,why should people avoid drinking milk,avoid drinking milk,con,0.250,0.200,0.050,0.050,0.100,0.050,0.150,0.050,0.000,0.150,0.250
+7,are there disease links to drinking milk,milk disease links,con,0.100,0.150,0.150,0.100,0.050,0.050,0.100,0.200,0.050,0.250,0.150
+7,what are the disadvantages of drinking milk,milk disadvantages,con,0.150,0.150,0.100,0.050,0.100,0.250,0.100,0.100,0.000,0.050,0.150
+7,what are the cons of drinking milk,milk cons,con,0.200,0.150,0.050,0.100,0.150,0.100,0.050,0.100,0.100,0.000,0.400
+8,why homework is beneficial,homework beneficial,pro,0.000,0.000,0.100,0.050,0.000,0.000,0.150,0.150,0.050,0.100,0.200
+8,what are homework benefits,homework benefits,pro,0.000,0.100,0.000,0.000,0.100,0.100,0.050,0.100,0.000,0.100,0.050
+8,why homework helps students,homework helps students,pro,0.000,0.000,0.100,0.050,0.100,0.100,0.100,0.050,0.050,0.150,0.300
+8,what makes homework effective,homework effective,pro,0.000,0.100,0.000,0.050,0.050,0.050,0.150,0.000,0.150,0.100,0.050
+8,what are homework advantages,homework advantages,pro,0.000,0.100,0.000,0.100,0.100,0.100,0.150,0.050,0.050,0.050,0.050
+8,does homework support education,homework support education,pro,0.000,0.050,0.050,0.100,0.000,0.100,0.150,0.150,0.150,0.050,0.000
+8,why homework is important,homework important,pro,0.000,0.000,0.000,0.150,0.100,0.000,0.200,0.150,0.050,0.100,0.300
+8,what are homework benefits,homework benefits,pro,0.000,0.100,0.000,0.000,0.100,0.100,0.050,0.100,0.000,0.000,0.050
+8,what are homework pros,homework pros,pro,0.000,0.100,0.050,0.050,0.150,0.050,0.100,0.050,0.150,0.050,0.050
+8,what are positive effects of homework,homework positive effects,pro,0.000,0.200,0.050,0.050,0.100,0.000,0.050,0.100,0.000,0.000,0.150
+8,what are homework advantages,homework advantages,pro,0.000,0.100,0.000,0.100,0.100,0.100,0.150,0.050,0.050,0.100,0.050
+8,what support is there for homework,support for homework,pro,0.000,0.150,0.000,0.000,0.050,0.050,0.100,0.050,0.150,0.100,0.050
+8,why is homework good,homework good,pro,0.000,0.000,0.200,0.050,0.100,0.050,0.150,0.200,0.150,0.100,0.150
+8,what is the value of homework,homework value,pro,0.000,0.150,0.100,0.050,0.050,0.100,0.100,0.050,0.200,0.050,0.050
+8,why is homework important,homework importance,pro,0.000,0.100,0.000,0.200,0.100,0.250,0.100,0.050,0.050,0.050,0.050
+8,how is homework effective,homework effectiveness,pro,0.000,0.100,0.100,0.050,0.050,0.050,0.050,0.300,0.050,0.050,0.250
+8,what are the benefits and drawbacks of homework,homework benefits drawbacks,neutral,0.000,0.100,0.100,0.050,0.150,0.050,0.050,0.000,0.050,0.000,0.000
+8,what do studies say about whether homework is beneficial,homework beneficial studies,neutral,0.100,0.050,0.100,0.100,0.000,0.050,0.050,0.050,0.150,0.150,0.200
+8,what is the debate over homework being beneficial,homework beneficial debate,neutral,0.000,0.050,0.000,0.000,0.000,0.000,0.050,0.000,0.150,0.050,0.150
+8,what makes homework beneficial or harmful,homework beneficial harmful,neutral,0.000,0.100,0.100,0.100,0.050,0.000,0.050,0.150,0.050,0.050,0.100
+8,how do people evaluate if homework is beneficial,homework beneficial evaluation,neutral,0.000,0.200,0.000,0.150,0.050,0.100,0.050,0.050,0.050,0.100,0.050
+8,what is the purpose of homework,homework purpose,neutral,0.000,0.150,0.000,0.000,0.000,0.000,0.000,0.150,0.100,0.000,0.150
+8,what are the pros and cons of homework,homework pros cons,neutral,0.000,0.100,0.150,0.050,0.050,0.050,0.150,0.150,0.100,0.100,0.150
+8,what is the debate about homework,homework debate,neutral,0.000,0.100,0.000,0.050,0.100,0.000,0.000,0.050,0.050,0.050,0.000
+8,why homework isn't beneficial,homework not beneficial,con,0.000,0.000,0.000,0.100,0.100,0.000,0.050,0.000,0.100,0.150,0.300
+8,what are negative effects of homework,homework negative effects,con,0.000,0.150,0.000,0.100,0.000,0.000,0.050,0.000,0.100,0.050,0.150
+8,what are disadvantages of homework,homework disadvantages,con,0.000,0.250,0.100,0.050,0.050,0.100,0.100,0.000,0.050,0.000,0.050
+8,why schools should reduce homework,reduce homework,con,0.150,0.250,0.300,0.100,0.050,0.100,0.100,0.000,0.100,0.250,0.150
+8,should we stop giving homework,stop homework,con,0.150,0.100,0.100,0.250,0.150,0.100,0.050,0.150,0.050,0.350,0.050
+8,what are homework cons,homework cons,con,0.000,0.100,0.000,0.000,0.100,0.050,0.000,0.050,0.100,0.000,0.150
+8,is no homework better for students,no homework benefits,con,0.250,0.100,0.100,0.050,0.100,0.050,0.050,0.150,0.000,0.150,0.100
+8,how does homework harm students,homework harms,con,0.050,0.250,0.100,0.150,0.050,0.150,0.100,0.150,0.050,0.150,0.050
+8,what are the negative effects of homework,homework negative effects,con,0.000,0.250,0.000,0.050,0.000,0.100,0.050,0.000,0.050,0.000,0.150
+8,what are the disadvantages of homework,homework disadvantages,con,0.000,0.250,0.100,0.050,0.050,0.100,0.100,0.100,0.050,0.100,0.100
+8,what are the cons of homework,homework cons,con,0.000,0.300,0.000,0.000,0.100,0.100,0.100,0.050,0.000,0.050,0.200
+8,why is homework not beneficial,homework not beneficial,con,0.000,0.000,0.000,0.050,0.100,0.000,0.050,0.000,0.100,0.200,0.250
+8,what are arguments against homework,against homework arguments,con,0.000,0.050,0.000,0.000,0.050,0.100,0.000,0.050,0.150,0.100,0.200
+8,are there benefits to having no homework,no homework benefits,con,0.000,0.050,0.000,0.050,0.200,0.050,0.000,0.050,0.100,0.000,0.100
+9,why intellectual property rights matter,intellectual property rights matter,pro,0.000,0.100,0.100,0.150,0.050,0.000,0.000,0.100,0.000,0.050,0.100
+9,why we should support intellectual property rights,support intellectual property rights,pro,0.000,0.050,0.150,0.000,0.150,0.150,0.150,0.050,0.100,0.050,0.100
+9,what are arguments for intellectual property rights,arguments for intellectual property rights,pro,0.000,0.050,0.000,0.100,0.100,0.000,0.100,0.100,0.000,0.100,0.000
+9,why intellectual property rights should exist,intellectual property rights should exist,pro,0.000,0.000,0.050,0.050,0.050,0.000,0.100,0.050,0.000,0.000,0.050
+9,what benefits come from intellectual property rights,intellectual property rights benefits,pro,0.000,0.000,0.050,0.000,0.000,0.000,0.050,0.050,0.100,0.000,0.050
+9,what positive role intellectual property rights play,intellectual property rights positive role,pro,0.000,0.050,0.050,0.000,0.150,0.100,0.000,0.100,0.100,0.000,0.050
+9,why protecting intellectual property rights is good,protecting intellectual property rights good,pro,0.000,0.050,0.000,0.050,0.000,0.050,0.000,0.000,0.100,0.050,0.000
+9,what is the value of intellectual property rights,intellectual property rights value,pro,0.000,0.150,0.000,0.000,0.050,0.000,0.000,0.100,0.050,0.050,0.000
+9,why should we support intellectual property rights,support intellectual property rights,pro,0.000,0.050,0.150,0.100,0.050,0.150,0.150,0.050,0.100,0.100,0.100
+9,why are intellectual property rights important,intellectual property rights importance,pro,0.050,0.050,0.000,0.000,0.000,0.050,0.000,0.000,0.000,0.050,0.050
+9,why do we need intellectual property rights,intellectual property rights need,pro,0.000,0.100,0.000,0.050,0.050,0.050,0.000,0.100,0.000,0.050,0.050
+9,what are the advantages of intellectual property rights,intellectual property rights advantages,pro,0.000,0.050,0.000,0.000,0.000,0.050,0.000,0.000,0.100,0.000,0.050
+9,what is the purpose of intellectual property rights,intellectual property rights purpose,pro,0.000,0.150,0.000,0.050,0.050,0.100,0.000,0.000,0.100,0.000,0.150
+9,why are intellectual property rights good,intellectual property rights good,pro,0.000,0.050,0.100,0.050,0.000,0.050,0.000,0.000,0.100,0.050,0.150
+9,why people support or oppose intellectual property rights,support oppose intellectual property rights,neutral,0.050,0.000,0.200,0.300,0.100,0.250,0.200,0.050,0.200,0.100,0.000
+9,should intellectual property rights exist or not,intellectual property rights exist choice,neutral,0.000,0.150,0.050,0.150,0.100,0.200,0.150,0.050,0.100,0.050,0.050
+9,what are benefits and drawbacks of intellectual property rights,intellectual property rights benefits drawbacks,neutral,0.000,0.050,0.050,0.100,0.050,0.000,0.050,0.050,0.150,0.000,0.000
+9,what arguments exist about intellectual property rights,intellectual property rights arguments,neutral,0.050,0.000,0.000,0.050,0.050,0.050,0.200,0.100,0.150,0.050,0.150
+9,how people view intellectual property rights,intellectual property rights views,neutral,0.000,0.000,0.050,0.050,0.100,0.050,0.100,0.100,0.400,0.000,0.100
+9,what debates surround intellectual property rights,intellectual property rights debates,neutral,0.000,0.100,0.000,0.050,0.100,0.100,0.050,0.100,0.050,0.000,0.100
+9,what is the debate over intellectual property rights,intellectual property rights debate,neutral,0.000,0.150,0.050,0.050,0.100,0.000,0.100,0.050,0.000,0.100,0.100
+9,what is the purpose of intellectual property rights,intellectual property rights purpose,neutral,0.000,0.150,0.000,0.050,0.050,0.100,0.000,0.000,0.100,0.000,0.150
+9,what are the arguments about intellectual property rights,intellectual property rights arguments,neutral,0.000,0.100,0.000,0.000,0.200,0.000,0.100,0.050,0.050,0.000,0.050
+9,what are the benefits and harms of intellectual property rights,intellectual property rights benefits harms,neutral,0.000,0.100,0.050,0.050,0.000,0.050,0.150,0.150,0.150,0.050,0.050
+9,what role do intellectual property rights play,intellectual property rights role,neutral,0.000,0.050,0.000,0.150,0.000,0.050,0.000,0.050,0.100,0.100,0.050
+9,why intellectual property rights shouldn't exist,intellectual property rights shouldn't exist,con,0.000,0.050,0.200,0.050,0.050,0.100,0.150,0.050,0.250,0.000,0.200
+9,what are problems with intellectual property rights,intellectual property rights problems,con,0.000,0.050,0.000,0.050,0.150,0.050,0.050,0.100,0.100,0.050,0.150
+9,why do people oppose intellectual property rights,oppose intellectual property rights,con,0.100,0.100,0.100,0.100,0.100,0.050,0.050,0.150,0.050,0.050,0.300
+9,are intellectual property rights harmful,intellectual property rights harmful,con,0.000,0.050,0.050,0.050,0.000,0.100,0.150,0.200,0.000,0.000,0.050
+9,what are downsides of intellectual property rights,intellectual property rights downsides,con,0.000,0.150,0.000,0.000,0.000,0.000,0.100,0.100,0.000,0.200,0.300
+9,why we don't need intellectual property rights,don't need intellectual property rights,con,0.000,0.100,0.000,0.150,0.050,0.150,0.100,0.100,0.000,0.100,0.300
+9,how do intellectual property rights cause harm,intellectual property rights harm,con,0.000,0.200,0.000,0.050,0.200,0.150,0.050,0.050,0.100,0.250,0.300
+9,why should we end intellectual property rights,end intellectual property rights,con,0.000,0.200,0.000,0.200,0.050,0.000,0.100,0.050,0.050,0.100,0.650
+9,why are intellectual property rights unnecessary,intellectual property rights unnecessary,con,0.000,0.050,0.050,0.000,0.050,0.050,0.100,0.100,0.000,0.100,0.200
+9,what are benefits of having no intellectual property rights,no intellectual property rights benefits,con,0.000,0.000,0.000,0.100,0.100,0.050,0.050,0.150,0.100,0.100,0.350
+9,what problems come from intellectual property rights,intellectual property rights problems,con,0.000,0.000,0.000,0.050,0.250,0.050,0.050,0.000,0.150,0.050,0.050
+9,what issues are caused by intellectual property rights,intellectual property rights issues,con,0.000,0.050,0.200,0.000,0.100,0.050,0.100,0.100,0.400,0.100,0.100
+9,what criticism exists of intellectual property rights,intellectual property rights criticism,con,0.050,0.200,0.000,0.050,0.050,0.050,0.150,0.100,0.050,0.300,0.100
+10,how school uniforms help students,school uniforms help students,pro,0.000,0.050,0.000,0.050,0.050,0.000,0.100,0.000,0.050,0.050,0.050
+10,why school uniforms are good,school uniforms good,pro,0.000,0.000,0.150,0.100,0.150,0.250,0.100,0.150,0.150,0.000,0.050
+10,what are benefits of school uniforms,school uniforms benefits,pro,0.000,0.000,0.050,0.050,0.100,0.000,0.000,0.000,0.100,0.000,0.050
+10,what positives come from school uniforms,school uniforms positives,pro,0.100,0.400,0.000,0.000,0.050,0.100,0.000,0.100,0.150,0.100,0.000
+10,why having school uniforms makes sense,school uniforms make sense,pro,0.100,0.050,0.200,0.050,0.050,0.200,0.050,0.050,0.150,0.050,0.100
+10,why students wearing uniforms is helpful,students wearing uniforms helpful,pro,0.000,0.150,0.000,0.150,0.050,0.050,0.100,0.050,0.200,0.100,0.150
+10,what advantages school uniforms give,school uniforms advantages,pro,0.050,0.050,0.050,0.050,0.000,0.050,0.000,0.000,0.150,0.000,0.000
+10,why support school uniforms,school uniforms support,pro,0.000,0.200,0.100,0.000,0.300,0.200,0.100,0.250,0.200,0.100,0.050
+10,why are school uniforms good,school uniforms good,pro,0.000,0.000,0.150,0.100,0.150,0.200,0.100,0.150,0.150,0.100,0.050
+10,how do school uniforms help students,school uniforms help students,pro,0.000,0.050,0.000,0.050,0.050,0.000,0.100,0.000,0.050,0.050,0.050
+10,what are school uniforms benefits,school uniforms benefits,pro,0.000,0.050,0.000,0.000,0.000,0.000,0.000,0.000,0.100,0.000,0.100
+10,what are school uniforms advantages,school uniforms advantages,pro,0.000,0.100,0.050,0.050,0.000,0.050,0.000,0.000,0.000,0.000,0.050
+10,what are positive effects of school uniforms,school uniforms positive effects,pro,0.000,0.050,0.050,0.050,0.000,0.100,0.000,0.000,0.050,0.050,0.050
+10,what are the benefits of students wearing uniforms,students wearing uniforms benefits,pro,0.000,0.100,0.100,0.100,0.050,0.100,0.100,0.100,0.000,0.000,0.100
+10,why require school uniforms,require school uniforms,pro,0.000,0.150,0.050,0.100,0.200,0.200,0.050,0.250,0.050,0.000,0.100
+10,what is the debate about students wearing school uniforms,students wear school uniforms debate,neutral,0.100,0.100,0.050,0.000,0.050,0.100,0.000,0.200,0.400,0.200,0.050
+10,what are arguments for and against school uniforms,school uniforms arguments for against,neutral,0.000,0.200,0.000,0.050,0.000,0.000,0.000,0.150,0.050,0.200,0.050
+10,what happens when students wear school uniforms,school uniforms effects,neutral,0.250,0.150,0.300,0.250,0.300,0.100,0.550,0.350,0.250,0.400,0.300
+10,what are common views on school uniforms,school uniforms views,neutral,0.050,0.150,0.450,0.100,0.200,0.150,0.050,0.150,0.050,0.000,0.100
+10,how people feel about students wearing school uniforms,school uniforms opinions,neutral,0.250,0.100,0.400,0.000,0.200,0.100,0.150,0.050,0.150,0.200,0.150
+10,what are pros and cons of students wearing school uniforms,students school uniforms pros cons,neutral,0.000,0.050,0.050,0.050,0.000,0.000,0.150,0.150,0.100,0.050,0.100
+10,why schools require or drop school uniforms,schools require drop school uniforms,neutral,0.000,0.050,0.050,0.050,0.100,0.150,0.050,0.150,0.250,0.100,0.100
+10,what is the purpose of having school uniforms,school uniforms purpose,neutral,0.000,0.050,0.000,0.000,0.100,0.050,0.100,0.100,0.050,0.050,0.050
+10,what is the debate about students having to wear school uniforms,students wear school uniforms debate,neutral,0.000,0.200,0.050,0.100,0.050,0.150,0.100,0.200,0.300,0.000,0.100
+10,what is the purpose of school uniforms,school uniforms purpose,neutral,0.000,0.050,0.000,0.000,0.100,0.050,0.000,0.100,0.050,0.050,0.050
+10,what are the pros and cons of school uniforms,school uniforms pros cons,neutral,0.000,0.000,0.050,0.000,0.100,0.050,0.150,0.100,0.000,0.050,0.000
+10,how do school uniforms impact students,school uniforms impact students,neutral,0.000,0.050,0.000,0.150,0.100,0.000,0.050,0.050,0.250,0.000,0.000
+10,why are school uniforms made mandatory,mandatory school uniforms reasons,neutral,0.200,0.100,0.050,0.100,0.050,0.200,0.000,0.000,0.100,0.050,0.050
+10,what are the arguments for and against school uniforms,school uniforms arguments,neutral,0.000,0.100,0.050,0.000,0.050,0.000,0.200,0.000,0.150,0.100,0.050
+10,are school uniforms necessary for students,school uniforms necessity,neutral,0.200,0.200,0.000,0.200,0.200,0.000,0.200,0.050,0.200,0.200,0.050
+10,what are arguments against school uniforms,school uniforms arguments against,con,0.000,0.150,0.000,0.050,0.000,0.000,0.150,0.100,0.100,0.000,0.100
+10,why school uniforms are a bad idea,school uniforms bad idea,con,0.000,0.050,0.100,0.100,0.100,0.100,0.150,0.000,0.100,0.100,0.500
+10,what problems come from school uniforms,school uniforms problems,con,0.100,0.100,0.050,0.150,0.100,0.000,0.150,0.100,0.150,0.100,0.200
+10,why schools should drop uniforms,schools drop uniforms,con,0.000,0.200,0.150,0.350,0.250,0.200,0.100,0.450,0.050,0.300,0.300
+10,what are downsides of making students wear uniforms,students wear uniforms downsides,con,0.100,0.200,0.050,0.050,0.000,0.050,0.000,0.100,0.000,0.100,0.200
+10,why forcing school uniforms doesn't help students,forcing school uniforms not help,con,0.050,0.200,0.100,0.150,0.250,0.150,0.000,0.200,0.050,0.100,0.050
+10,what concerns do people have about school uniforms,school uniforms concerns,con,0.150,0.200,0.150,0.100,0.200,0.000,0.100,0.000,0.100,0.150,0.100
+10,why are school uniforms unnecessary,school uniforms unnecessary,con,0.000,0.150,0.050,0.050,0.050,0.150,0.100,0.300,0.000,0.000,0.250
+10,why are school uniforms a bad idea,school uniforms bad idea,con,0.000,0.050,0.100,0.100,0.100,0.100,0.150,0.000,0.100,0.000,0.600
+10,why do people oppose school uniforms,oppose school uniforms,con,0.150,0.050,0.100,0.200,0.100,0.300,0.050,0.200,0.050,0.200,0.350
+10,what problems do school uniforms cause,school uniforms problems,con,0.000,0.100,0.050,0.150,0.050,0.150,0.200,0.050,0.200,0.200,0.200
+10,what are disadvantages of school uniforms,school uniforms disadvantages,con,0.000,0.050,0.100,0.050,0.000,0.050,0.100,0.000,0.000,0.100,0.150
+10,what are school uniform cons,school uniforms cons,con,0.050,0.100,0.100,0.100,0.050,0.000,0.000,0.100,0.100,0.200,0.050
+10,what are benefits of having no school uniforms,no school uniforms benefits,con,0.000,0.050,0.050,0.100,0.200,0.150,0.150,0.400,0.050,0.100,0.050
+10,why should school uniforms not be required,school uniforms not required,con,0.000,0.050,0.200,0.150,0.200,0.100,0.000,0.000,0.050,0.150,0.450
+11,why be an atheist,be atheist reasons,pro,0.050,0.250,0.050,0.050,0.050,0.000,0.050,0.100,0.150,0.100,0.150
+11,what are atheism benefits,atheism benefits,pro,0.000,0.100,0.050,0.000,0.050,0.000,0.050,0.150,0.200,0.000,0.200
+11,why atheism makes sense,atheism makes sense,pro,0.000,0.050,0.150,0.050,0.100,0.100,0.000,0.200,0.100,0.050,0.000
+11,why choose atheism,choose atheism,pro,0.000,0.150,0.250,0.150,0.150,0.150,0.100,0.200,0.100,0.000,0.100
+11,is atheism reasonable,atheism reasonable,pro,0.000,0.050,0.150,0.050,0.100,0.100,0.050,0.000,0.100,0.100,0.050
+11,why adopt an atheist view,adopt atheist view,pro,0.000,0.100,0.100,0.200,0.100,0.100,0.200,0.150,0.100,0.100,0.050
+11,what are positive effects of atheism,atheism positive effects,pro,0.000,0.050,0.000,0.000,0.000,0.150,0.050,0.050,0.150,0.000,0.100
+11,what arguments support being an atheist,arguments supporting atheism,pro,0.000,0.150,0.050,0.050,0.150,0.050,0.050,0.100,0.100,0.100,0.100
+11,what are atheism benefits,atheism benefits,pro,0.000,0.100,0.050,0.000,0.050,0.000,0.050,0.150,0.200,0.100,0.200
+11,what are atheism advantages,atheism advantages,pro,0.000,0.050,0.000,0.000,0.100,0.050,0.000,0.100,0.050,0.000,0.050
+11,why be an atheist,reasons be atheist,pro,0.050,0.250,0.050,0.050,0.000,0.050,0.000,0.100,0.050,0.100,0.100
+11,why support atheism,support atheism,pro,0.000,0.000,0.100,0.100,0.050,0.150,0.050,0.150,0.100,0.000,0.050
+11,what are positive effects of atheism,atheism positive effects,pro,0.000,0.050,0.000,0.000,0.000,0.150,0.050,0.050,0.150,0.050,0.100
+11,what is the value of atheism,value atheism,pro,0.000,0.100,0.050,0.100,0.100,0.100,0.100,0.100,0.150,0.050,0.050
+11,why is atheism a good choice,atheism good choice,pro,0.000,0.100,0.050,0.000,0.100,0.000,0.150,0.150,0.100,0.000,0.100
+11,what are atheism pros,atheism pros,pro,0.000,0.100,0.000,0.150,0.250,0.050,0.050,0.050,0.100,0.100,0.100
+11,why choose atheism,choose atheism,pro,0.000,0.150,0.250,0.150,0.150,0.150,0.100,0.200,0.100,0.050,0.100
+11,what are arguments for atheism,arguments for atheism,pro,0.000,0.150,0.000,0.000,0.050,0.000,0.100,0.050,0.000,0.000,0.000
+11,should one be an atheist or not,be an atheist choice,neutral,0.150,0.150,0.100,0.100,0.150,0.100,0.100,0.050,0.200,0.200,0.100
+11,why people choose atheism or belief,people choose atheism belief,neutral,0.000,0.050,0.100,0.350,0.100,0.100,0.100,0.050,0.100,0.050,0.200
+11,what are pros and cons of being an atheist,atheist pros cons,neutral,0.000,0.100,0.100,0.000,0.100,0.100,0.100,0.100,0.050,0.050,0.000
+11,what are views on being an atheist,being an atheist views,neutral,0.000,0.150,0.050,0.050,0.050,0.050,0.000,0.050,0.050,0.050,0.000
+11,what are effects of being an atheist,atheist effects,neutral,0.000,0.000,0.100,0.200,0.050,0.150,0.050,0.100,0.050,0.050,0.050
+11,how people decide whether to be an atheist,decide be atheist,neutral,0.150,0.150,0.000,0.050,0.250,0.050,0.050,0.050,0.050,0.000,0.050
+11,what is the debate about being an atheist,being an atheist debate,neutral,0.000,0.100,0.000,0.150,0.100,0.000,0.050,0.000,0.000,0.050,0.150
+11,what are arguments about being an atheist,being an atheist arguments,neutral,0.000,0.150,0.150,0.050,0.050,0.100,0.000,0.050,0.150,0.050,0.100
+11,should one be an atheist or not,be atheist choice,neutral,0.150,0.150,0.100,0.150,0.100,0.050,0.000,0.100,0.150,0.100,0.050
+11,what are differences between being an atheist and being a believer,atheist vs believer,neutral,0.150,0.000,0.100,0.100,0.050,0.000,0.050,0.000,0.100,0.100,0.100
+11,what are the pros and cons of atheism,atheism pros cons,neutral,0.000,0.250,0.050,0.050,0.000,0.100,0.150,0.050,0.100,0.000,0.000
+11,what are common arguments about atheism,atheism arguments,neutral,0.050,0.100,0.050,0.000,0.000,0.000,0.000,0.100,0.200,0.100,0.000
+11,what are the main beliefs associated with atheism,atheism beliefs overview,neutral,0.050,0.100,0.050,0.100,0.100,0.050,0.100,0.100,0.100,0.100,0.050
+11,what is the general discussion around atheism,atheism discussion,neutral,0.150,0.150,0.100,0.200,0.050,0.100,0.050,0.050,0.050,0.050,0.150
+11,what are public opinions on atheism,atheism opinions,neutral,0.150,0.300,0.050,0.200,0.150,0.050,0.050,0.250,0.250,0.250,0.200
+11,what factors influence choosing atheism,atheism choice factors,neutral,0.050,0.100,0.050,0.050,0.200,0.050,0.150,0.200,0.050,0.050,0.000
+11,what are disadvantages of being an atheist,atheism disadvantages,con,0.100,0.150,0.100,0.200,0.200,0.050,0.000,0.100,0.100,0.050,0.100
+11,why atheism doesn't make sense to some people,atheism doesn't make sense,con,0.050,0.000,0.000,0.150,0.100,0.100,0.150,0.050,0.050,0.050,0.000
+11,what are atheism cons,atheism cons,con,0.000,0.100,0.050,0.100,0.100,0.000,0.100,0.050,0.150,0.050,0.100
+11,why people avoid atheism,avoid atheism reasons,con,0.100,0.150,0.050,0.100,0.100,0.100,0.000,0.150,0.100,0.050,0.100
+11,what are negative effects of atheism,atheism negative effects,con,0.000,0.050,0.000,0.150,0.000,0.050,0.000,0.050,0.100,0.100,0.100
+11,why some prefer not being atheist,not being atheist reasons,con,0.050,0.000,0.050,0.000,0.150,0.000,0.150,0.000,0.300,0.100,0.150
+11,is atheism too limiting,atheism limitations,con,0.000,0.100,0.050,0.000,0.050,0.200,0.150,0.100,0.100,0.000,0.100
+11,what are the cons of atheism,atheism cons,con,0.000,0.150,0.000,0.050,0.100,0.100,0.100,0.050,0.100,0.100,0.150
+11,what are the disadvantages of being an atheist,atheism disadvantages,con,0.100,0.150,0.100,0.200,0.100,0.050,0.050,0.000,0.050,0.100,0.100
+11,what are the problems with atheism,problems with atheism,con,0.000,0.050,0.000,0.150,0.050,0.050,0.000,0.050,0.050,0.050,0.000
+11,what negative effects does atheism have,atheism negative effects,con,0.000,0.050,0.050,0.100,0.050,0.100,0.000,0.000,0.000,0.000,0.200
+11,what are reasons not to be an atheist,reasons not atheist,con,0.000,0.200,0.050,0.150,0.000,0.050,0.050,0.100,0.150,0.100,0.000
+11,what are common criticisms of atheism,criticisms of atheism,con,0.100,0.400,0.200,0.050,0.150,0.100,0.150,0.050,0.100,0.050,0.000
+11,what views argue against atheism,against atheism views,con,0.150,0.000,0.100,0.150,0.100,0.150,0.000,0.050,0.200,0.150,0.200
+11,what are the risks of being an atheist,atheism risks,con,0.100,0.150,0.250,0.200,0.050,0.050,0.150,0.050,0.100,0.150,0.050
+11,what are the drawbacks of atheism,atheism drawbacks,con,0.000,0.200,0.050,0.050,0.100,0.100,0.050,0.000,0.050,0.000,0.000
