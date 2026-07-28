@@ -40,3 +40,20 @@ For each cutoff, `all_nmd_at{k}.csv` and `all_rnmd_at{k}.csv` store one NMD or r
 - `nmd_and_rnmd_at10_boxplot_figure.pdf`: boxplots of NMD at 10 and rNMD at 10
 
 
+#### `ndcg_and_stance_ndcg/`
+
+These files provide rankings-method-level means, separately for question and keyword queries and for the three query stances. In each result block, `method` identifies the ranker; the six query columns combine query stance (`pro`, `neutral`, `con`) and query type (`question`, `keyword`); `all_mean` is the overall mean. 
+
+- `ndcg_over_the_eight_topics.csv`: Standard nDCG (topical retrieval effectiveness) over the eight topics with added relevance judgments
+- `stance_ndcg_over_the_eight_topics.csv`: Stance-nDCG over the eight topics
+- `stance_ndcg_over_all_11_topics.csv`: Stance-nDCG over all 11 topics
+
+
+#### `pro_documents_ratio_across_controlled_corpora/`
+
+The PDFs show the fraction of pro documents retrieved when the corpus is controlled to pro:con ratios of 3:7, 5:5, and 7:3. Neutral and topically irrelevant documents are excluded in this experiment. Values are macro-averaged over the 11 topics and averaged across question and keyword queries.
+
+- `pro_documents_ratio_at3_controlled_corpora_figure.pdf`: proportion of pro documents at 3 across controlled corpora
+- `pro_documents_ratio_at5_controlled_corpora_figure.pdf`: proportion of pro documents at 5 across controlled corpora
+- `pro_documents_ratio_at10_controlled_corpora_figure.pdf`: proportion of pro documents at 10 across controlled corpora
+
