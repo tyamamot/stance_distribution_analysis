@@ -1,4 +1,7 @@
-This repository contains the experimental materials for the paper *Analyzing the Effects of Query Type and Ranking Methods on the Stance Distribution of Search Results on Controversial Topics*.
+This is the repository for the paper:
+> Taiyo Ikemoto, Takehiro Yamamoto:
+> *Analyzing the Effects of Query Type and Ranking Methods on the Stance Distribution of Search Results on Controversial Topics*.
+>  In Proceedings of the 2026 Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region (SIGIR-AP 2026), December 2026,
 
 - `all_queries.csv`: The 490 manually validated question–keyword query pairs used in the experiments. The file contains 183 pro, 142 neutral, and 165 con query pairs across 11 topics.
 
@@ -51,3 +54,9 @@ The PDF files show the proportion of pro documents among the top-$k$ results for
 - `pro_documents_ratio_at3_controlled_corpora_figure.pdf`
 - `pro_documents_ratio_at5_controlled_corpora_figure.pdf`
 - `pro_documents_ratio_at10_controlled_corpora_figure.pdf`
+
+## Contact
+For any inquiries, please contact:
+
+**Takehiro Yamamoto, University of Hyogo**  
+Email: [t.yamamoto@sis.u-hyogo.ac.jp](mailto:t.yamamoto@sis.u-hyogo.ac.jp)
